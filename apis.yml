@@ -1,7 +1,32 @@
 aid: highway9
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highway9.png
 name: Highway9
-description: Highway9 is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Highway 9 Networks is a Silicon Valley company delivering AI Wireless
+  Infrastructure as a Service through its Virtual Mobile/AI Cloud (VMC)
+  platform. The platform combines a cloud control plane (Mobile Center), a
+  distributed 5G core and edge AI services (Mobile Edge), private 5G wireless
+  infrastructure (Mobile Network), and connected device/workload groupings
+  (Mobile Zones) to give enterprises deterministic, ultra-reliable private
+  mobile networks and in-building cellular coverage. It targets manufacturing
+  and warehousing (autonomous robots, drones, logistics), higher education (AI
+  labs and research), and energy (predictive maintenance, remote operations).
+  The Mobile Center Streaming APIs let partners integrate configuration, device
+  management, monitoring, analytics, and operational workflows with the
+  platform. Founded by an ex-VMware team behind NSX/SDN, hybrid cloud, and the
+  Telco 5G/Edge cloud platform.
 url: https://raw.githubusercontent.com/api-evangelist/highway9/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,75 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Networking
+- 5G
+- Private Mobile Networks
+- Wireless
+- Edge Computing
+- Cloud
+- IoT
+- Telecommunications
+- Enterprise Connectivity
+apis:
+- name: Mobile Center Streaming APIs
+  description: >-
+    Mobile Center APIs from Highway 9 Networks enable partners to integrate
+    configuration, device management, monitoring, analytics, and operational
+    workflows with the Virtual Mobile Cloud platform. Resource groups span
+    access and configuration, device management (DeviceInfo, DeviceGroup),
+    alerts and notifications (Alarm, alertProfile, alertsTemplate), telemetry
+    and audit logs (AuditLog), security and authentication (apiToken,
+    Certificate), application management (Application, Attribute), operator and
+    carrier metadata (carrierInfo, mnoOperator), and assistive services
+    (chatbot). The full OpenAPI reference is available inside the partner portal
+    for signed partners.
+  humanURL: https://www.highway9.com/mobile-center-streaming-apis/
+  baseURL: https://partner.demo.highway9networks.com/api/v1/orch
+  tags:
+  - 5G
+  - Device Management
+  - Telemetry
+  - Networking
+  properties:
+  - type: Authentication
+    url: authentication/highway9-authentication.yml
+common:
+- type: DomainSecurity
+  url: security/highway9-domain-security.yml
+- type: Website
+  url: https://www.highway9.com
+- type: Documentation
+  url: https://www.highway9.com/mobile-center-streaming-apis/
+- type: APIReference
+  url: https://www.highway9.com/mobile-center-streaming-apis/
+- type: Products
+  url: https://www.highway9.com/products/
+- type: Blog
+  url: https://www.highway9.com/blogs/
+- type: Support
+  url: https://www.highway9.com/technical-support/
+- type: HelpCenter
+  url: https://highway9networks.freshdesk.com/support/login
+- type: News
+  url: https://www.highway9.com/news/
+- type: PrivacyPolicy
+  url: https://www.highway9.com/privacy-notice/
+- type: TermsOfService
+  url: https://www.highway9.com/end-user-license-agreement/
+- type: Authentication
+  url: authentication/highway9-authentication.yml
+- type: LLMsTxt
+  url: llms/highway9-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,39 @@
+# Highway 9 Networks
+
+> Highway 9 Networks delivers AI Wireless Infrastructure as a Service through its Virtual Mobile/AI Cloud (VMC) platform — combining a cloud control plane (Mobile Center), a distributed 5G core and edge AI services (Mobile Edge), private 5G wireless (Mobile Network), and connected device/workload groupings (Mobile Zones) to give enterprises deterministic, ultra-reliable private mobile networks and in-building cellular coverage.
+
+Highway 9 serves manufacturing and warehousing (autonomous robots, drones, logistics), higher education (AI labs and research), and energy (predictive maintenance, remote operations). The Mobile Center Streaming APIs let signed partners integrate configuration, device management, monitoring, analytics, and operational workflows with the platform. The full OpenAPI reference is available inside the partner portal for signed partners and is not published publicly.
+
+## APIs
+
+- [Mobile Center Streaming APIs](https://www.highway9.com/mobile-center-streaming-apis/): Partner integration API for configuration, device management (DeviceInfo, DeviceGroup), alerts (Alarm, alertProfile, alertsTemplate), telemetry and audit logs (AuditLog), security (apiToken, Certificate), application management (Application, Attribute), operator/carrier metadata (carrierInfo, mnoOperator), and assistive services (chatbot). Base URL: https://partner.demo.highway9networks.com/api/v1/orch
+
+## Docs
+
+- [Products / Virtual Mobile Cloud](https://www.highway9.com/products/): Platform overview — Mobile Center, Mobile Edge, Mobile Network, Mobile Zones.
+- [Why Mobile Cloud](https://www.highway9.com/why-mobile-cloud/): Rationale for private mobile networks over Wi-Fi.
+- [FAQ](https://www.highway9.com/faq-mobile-cloud/): Frequently asked questions about the Mobile Cloud.
+- [Technical Support](https://www.highway9.com/technical-support/): Support offerings.
+- [Support Portal (Freshdesk)](https://highway9networks.freshdesk.com/support/login): Partner/customer help desk.
+
+## Solutions
+
+- [Higher Education](https://www.highway9.com/solutions/higher-edu/)
+- [Manufacturing & Warehousing](https://www.highway9.com/solutions/manufacturing/)
+- [Energy](https://www.highway9.com/solutions/energy/)
+- [Neutral Host Networks](https://www.highway9.com/solutions/neutral-host-networks/)
+- [Business Continuity Network](https://www.highway9.com/solutions/business-continuity-network/)
+- [Outdoor Coverage](https://www.highway9.com/solutions/outdoor-coverage/)
+
+## Company
+
+- [Company](https://www.highway9.com/company/): Silicon Valley startup founded by an ex-VMware team (NSX/SDN, hybrid cloud, Telco 5G/Edge). Backed by top Silicon Valley investors including General Catalyst.
+- [News](https://www.highway9.com/news/): Company news; Gartner Cool Vendor 2023, Frost & Sullivan Best Practices 2024.
+- [Blog](https://www.highway9.com/blogs/): Thought leadership on private cellular, 5G, and connectivity.
+- [Authentication (API Evangelist artifact)](authentication/highway9-authentication.yml): apiToken (header) and Certificate (mutual-TLS) auth model.
+
+## Legal
+
+- [Privacy Notice](https://www.highway9.com/privacy-notice/)
+- [End User License Agreement](https://www.highway9.com/end-user-license-agreement/)
+- [Cookie Policy](https://www.highway9.com/cookie-policy/)

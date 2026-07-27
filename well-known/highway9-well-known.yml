@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+note: >-
+  Probed the standard /.well-known/ discovery surface on the Highway 9 website
+  and the Mobile Center API host. None of the probed documents were published
+  (all 404). Absence is valid recorded data; no WellKnown/SecurityTxt pointer is
+  wired because nothing was found.
+hosts:
+- host: https://www.highway9.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://partner.demo.highway9networks.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
