@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.highway9.com
   final_host: highway9.com
-  ownership: inherited
+  ownership: own
   owner: highway9
   shares_host_with: null
-  inherited_from: highway9.com
+  inherited_from: null
+  alias_of: highway9.com
   verdict: scored
-  score: null
+  score: 32
+  band: 6
+  band_label: dominant
   host_score: 32
-  density: null
+  density: 40.15
   words: 797
   tiers:
     agentic: 0
